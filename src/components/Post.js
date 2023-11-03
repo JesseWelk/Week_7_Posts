@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function Post({ post }) {
@@ -7,7 +7,7 @@ export default function Post({ post }) {
   useEffect(() => {
     const getAuthor = async () => {
       const response = await axios.get(
-        `https://jsonplaceholder.typicode.com/users/${post.userId}`
+        `https://jsonplaceholder.typicode.com/users/${post.userId}`,
       );
       setAuthor(response.data);
     };
