@@ -4,16 +4,18 @@
 }
 
 .article {
-  max-width: 75%;
+  max-width: 100%;
   padding: 40px;
   box-shadow: 0 3px 3px #333333;
   margin: 20px;
   border-radius: 20px;
   background-color: darkgray;
   text-align: left;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .article h2 {
