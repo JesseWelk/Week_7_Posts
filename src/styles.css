@@ -4,9 +4,9 @@
 }
 
 .article {
-  max-width: 100%;
+  max-width: 800px;
   padding: 40px;
-  box-shadow: 0 3px 3px #555;
+  box-shadow: 0 3px 3px #333333;
   margin: 20px;
   border-radius: 20px;
   background-color: darkgray;
